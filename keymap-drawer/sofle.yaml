@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, _, CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
-    LCTRL, Z, X, C, V, B, MUTE, REFRESH, N, M, ',', ., /, RSHFT, LEFT WIN, LEFT SHIFT, LEFT ALT, SPACE, lower, raise, ENTER, '[', ']', '?']
+    LCTRL, Z, X, C, V, B, MUTE, REFRESH, N, M, ',', ., /, RSHFT, LEFT WIN, LEFT SHIFT, LEFT ALT, lower, SPACE, ENTER, raise, '[', ']', '?']
   lower:
-  - {t: ▽, type: trans}
+  - _
   - '!'
   - '@'
   - '#'
@@ -28,7 +28,7 @@ layers:
   - F11
   - F12
   - TAB
-  - '!'
+  - +
   - '@'
   - '#'
   - $
@@ -36,28 +36,28 @@ layers:
   - ^
   - '&'
   - KP MULTIPLY
-  - (
-  - )
   - '|'
+  - '~'
+  - \
   - {t: ▽, type: trans}
   - '='
   - '-'
-  - KP PLUS
+  - KP DIVIDE
   - '{'
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - ;
-  - ':'
-  - \
-  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,8 +119,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,10 +178,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - {type: held}
   - {type: held}
   - ''
+  - ''
+  - {type: held}
   - ''
   - ''
   - ''
