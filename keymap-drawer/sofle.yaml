@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, '|', CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
-    LEFT GUI, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RIGHT GUI, LEFT ALT, LEFT SHIFT, LCTRL, SPACE, lower, raise, ENTER, RIGHT CONTROL, RIGHT SHIFT, RIGHT ALT]
+    LCTRL, Z, X, C, V, B, MUTE, AC HOME, N, M, ',', ., /, RIGHT GUI, LEFT GUI, lower, LEFT ALT, LEFT SHIFT, SPACE, ENTER, RIGHT ALT, RIGHT CONTROL, raise, RIGHT SHIFT]
   lower:
   - ESC
   - '!'
@@ -14,7 +14,57 @@ layers:
   - '*'
   - (
   - )
+  - BACKSPACE
+  - TAB
+  - +
+  - '-'
+  - KP EQUAL
+  - _
+  - F6
+  - F7
+  - F8
+  - UP ARROW
+  - F10
+  - PRINTSCREEN
+  - F12
+  - CAPS
+  - '!'
+  - '@'
+  - DELETE
+  - $
+  - '%'
+  - HOME
+  - LEFT
+  - DOWN
+  - RIGHT
+  - )
+  - '|'
+  - LCTRL
   - '='
+  - '-'
+  - KP PLUS
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - \
+  - RIGHT GUI
+  - LEFT WIN
+  - {type: held}
+  - LEFT ALT
+  - LEFT SHIFT
+  - SPACE
+  - ENTER
+  - RIGHT ALT
+  - RCTRL
+  - {t: ▽, type: trans}
+  - RIGHT SHIFT
+  raise:
+  - ESCAPE
   - F1
   - F2
   - F3
@@ -25,61 +75,11 @@ layers:
   - F8
   - F9
   - F10
+  - BACKSPACE
+  - TAB
   - F11
   - F12
-  - TAB
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - ;
-  - ':'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CAPSLOCK
   - LALT
   - LCTRL
   - LSHFT
@@ -119,10 +119,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
   - BT CLR
@@ -137,17 +137,17 @@ layers:
   - ''
   - ''
   - ''
-  - EP TOG
+  - BT CLR ALL
   - RGB HUD
   - RGB HUI
   - RGB SAD
   - RGB SAI
   - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - RGB TOG
+  - RGB EFR
+  - RGB EFF
+  - RGB BRD
+  - RGB BRI
   - ''
   - ''
   - RGB BRD
@@ -156,10 +156,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - RGB HUD
+  - RGB HUI
+  - RGB SPD
+  - RGB SPI
   - ''
   - ''
   - ''
@@ -170,9 +170,13 @@ layers:
   - RGB TOG
   - ''
   - ''
+  - RGB SAD
+  - RGB SAI
   - ''
   - ''
   - ''
+  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -180,8 +184,4 @@ layers:
   - ''
   - ''
   - {type: held}
-  - {type: held}
-  - ''
-  - ''
-  - ''
   - ''
