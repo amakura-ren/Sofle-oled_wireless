@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, '|', CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
-    LCTRL, Z, X, C, V, B, MUTE, AC HOME, N, M, ',', ., /, RIGHT GUI, LEFT GUI, lower, LEFT ALT, LEFT SHIFT, SPACE, ENTER, RIGHT ALT, RIGHT CONTROL, raise, RIGHT SHIFT]
+    LCTRL, Z, X, C, V, B, MUTE, AC HOME, N, M, ',', ., /, RIGHT GUI, LEFT GUI, lower, LEFT ALT, LEFT SHIFT, SPACE, ENTER, lower, RIGHT ALT, raise, RIGHT SHIFT]
   lower:
   - ESC
   - '!'
@@ -18,7 +18,7 @@ layers:
   - TAB
   - +
   - '-'
-  - KP EQUAL
+  - '='
   - _
   - F6
   - F7
