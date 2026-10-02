@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, '|', F13, A, S, D, F, G, H, J, K, L, ;, '''', F14,
-    Z, X, C, V, B, '~', PAUSE, N, M, ',', ., /, INS, HOME, END, PG UP, PAGE DOWN, SPACE, ENTER, LEFT, UP ARROW, DOWN, RIGHT]
+    Z, X, C, V, B, '~', F16, N, M, ',', ., /, F15, HOME, END, PG UP, PAGE DOWN, SPACE, ENTER, LEFT, UP ARROW, DOWN, RIGHT]
   lower:
   - ESC
   - '!'
